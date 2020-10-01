@@ -1,0 +1,13 @@
+#creating a linked list with sample node
+class Node():
+    def __init__(self, data):
+        self.data = data
+
+a = Node(10)
+b = Node(20)
+
+a.next = b
+b.next = None
+
+print(a.data)
+print(a.next.data)
