@@ -1,0 +1,8 @@
+# create a linked list with inputs from the user console
+n = int(input("Enter nu
+print("\nList is - ", a)
+
+mber of elements : ")) 
+
+# Below line read inputs from user using map() function 
+a = list(map(int,input("\nEnter the numbers : ").strip().split()))[:n]
