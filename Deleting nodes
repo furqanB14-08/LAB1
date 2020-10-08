@@ -1,0 +1,27 @@
+  # Python3 program to remove first node of   
+# linked list. 
+
+import sys 
+
+  
+# Link list node  
+
+class Node: 
+
+    def __init__(self, data): 
+
+        self.data = data 
+
+        self.next = None
+
+  
+# Function to remove the first node   
+# of the linked list  
+
+def removeFirstNode(head): 
+
+    if not head: 
+
+        return None
+
+    temp = head 
